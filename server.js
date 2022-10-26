@@ -36,8 +36,7 @@ app.listen(port, () => {
 })
 
 
-app.use('/', loginController);
-app.use('/login', loginController);
+app.use('/', ordersController);
 app.use('/orders', ordersController);
 app.use('/employee', employeeController);
 app.use('/product', productController);
